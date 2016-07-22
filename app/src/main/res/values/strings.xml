@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">NurBiUTi</string>
+    <string name="title_activity_main">NurBiUTi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="main">Главная</string>
+    <string name="services">Услуги</string>
+    <string name="price">Прайс</string>
+    <string name="discount">Акции</string>
+    <string name="contacts">Наши контакты</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О нас</string>
+    <string name="tophit">TOPHiT</string>
+
+    <string name="communicate">Контакты</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <array name="backs">
+        <item>@drawable/back_card_amber</item>
+        <item>@drawable/back_card_blue</item>
+        <item>@drawable/back_card_brown</item>
+        <item>@drawable/back_card_cyan</item>
+        <item>@drawable/back_card_dorange</item>
+        <item>@drawable/back_card_dpurple</item>
+        <item>@drawable/back_card_green</item>
+        <item>@drawable/back_card_grey</item>
+        <item>@drawable/back_card_indigo</item>
+        <item>@drawable/back_card_lblue</item>
+        <item>@drawable/back_card_lgreen</item>
+        <item>@drawable/back_card_lime</item>
+        <item>@drawable/back_card_orange</item>
+        <item>@drawable/back_card_pink</item>
+        <item>@drawable/back_card_purple</item>
+        <item>@drawable/back_card_red</item>
+        <item>@drawable/back_card_teal</item>
+        <item>@drawable/back_card_yellow</item>
+    </array>
+</resources>

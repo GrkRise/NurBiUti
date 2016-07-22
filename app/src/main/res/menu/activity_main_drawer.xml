@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/main"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/main" />
+        <item
+            android:id="@+id/price"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/price" />
+        <item
+            android:id="@+id/services"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/services" />
+        <item
+            android:id="@+id/discount"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/discount" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/settings" />
+
+
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/contacts"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/contacts" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+    <item android:title="@string/tophit">
+        <menu>
+            <item
+                android:id="@+id/tophit"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/tophit" />
+        </menu>
+    </item>
+
+</menu>

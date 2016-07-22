@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    tools:context="com.rizzhivaykini.nurbiuti.Fragments.ContactsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:shrinkColumns="1">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contacts_adress"
+                    android:text="Адрес:"
+                    android:padding="16dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/adress"
+                    android:padding="16dp"
+                    android:text="ул. Какая то улица, д. 8, корп. 5, этаж 3, домофон 5423." />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contacts_phone"
+                    android:padding="16dp"
+                    android:text="Контактный номер:"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phone_number"
+                    android:text="8-495-999-00-00"
+                    android:padding="16dp"
+
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contacts_email"
+                    android:padding="16dp"
+                    android:text="E-mail:"
+                    android:layout_below="@id/contacts_adress"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email"
+                    android:text="android@android.com"
+                    android:padding="16dp" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contacts_map"
+                    android:text="Схума проезда:"
+                    android:padding="16dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <com.google.android.gms.maps.MapView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:id="@+id/map"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
